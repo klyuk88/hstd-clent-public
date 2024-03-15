@@ -1,0 +1,31 @@
+$primary: #0061ab;
+@import "bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+:root {
+    --main-color: #4fbcff;
+    --accent-color: #1c42ff;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.night {
+    background: #111;
+    color: #fff;
+
+    header {
+        background: #333 !important;
+
+        a {
+            color: #fff;
+        }
+    }
+
+    .login--wrap {
+        background: #333;
+    }
+}
+
+// @media (max-width: 768px)
